@@ -406,7 +406,6 @@ body {
   height: 180px;
   width: 180px;
   border: 10px solid #fff;
-  border-radius: 100%;
   background: url("https://avatars3.githubusercontent.com/u/14023536?s=460&v=4")
     center no-repeat;
   background-size: cover;
@@ -517,7 +516,7 @@ body {
 }
 
 .icons img {
-  width: 60px;
+  width: 80px;
   margin: 15px;
 }
 
