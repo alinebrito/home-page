@@ -16,17 +16,14 @@ Por isso, problemas na especificação de requisitos têm um custo alto. Eles po
 
 Requisitos funcionais, na maioria das vezes, são especificados em linguagem natural. Por outro lado, requisitos não-funcionais são especificados de forma quantitativa usando-se métricas, como aquelas descritas na próxima tabela. O uso de métricas evita especificações genéricas, como "o sistema deve ser rápido e ter alta disponibilidade". Em vez disso, é preferível definir que o sistema deve ter 99,99% de disponibilidade e que 99% de todas as transações realizadas em qualquer janela de 5 minutos devem ter um tempo de resposta máximo de 1 segundo.
 
-
->PENDENTE
-
-  **Requisito Não-Funcional**   **Métrica**
-  ----------------------------- ------------------------------------------------------------------------------------------------------
-  Desempenho                    Transações por segundo, tempo de resposta, latência, vazão (throughput)
-  Espaço                        Uso de disco, uso de RAM, uso de cache
-  Confiabilidade                \% de disponibilidade, tempo médio entre falhas (MTBF)
-  Robustez                      Tempo para recuperar o sistema após uma falha (MTTR); probabilidade de perda de dados após uma falha
-  Usabilidade                   Tempo de treinamento de novos usuários
-  Portabilidade                 \% de linhas de código que são portáveis entre plataformas
+| Requisito Não-Funcional |  Métrica
+| ------------- | ------------- |
+| Desempenho | Transações por segundo, tempo de resposta, latência, vazão (throughput)
+| Espaço | Uso de disco, uso de RAM, uso de cache
+| Confiabilidade |  \% de disponibilidade, tempo médio entre falhas (MTBF)
+| Robustez | Tempo para recuperar o sistema após uma falha (MTTR); probabilidade de perda de dados após uma falha
+| Usabilidade | Tempo de treinamento de novos usuários
+| Portabilidade | \% de linhas de código que são portáveis entre plataformas
 
 Alguns autores, como Ian Sommerville ([link](https://iansommerville.com/software-engineering-book/)), também classificam requisitos em **requisitos de usuário** e **requisitos de sistema**. Requisitos de usuários são requisitos de mais alto nível, escritos por usuários, normalmente em linguagem natural e sem entrar em detalhes técnicos. Já requisitos de sistema são técnicos, precisos e escritos pelos próprios desenvolvedores. Normalmente, um requisito de usuário é expandido em um conjunto de requisitos de sistema. Suponha, por exemplo, um sistema bancário. Um requisito de usuário  —  especificado pelos funcionários do banco  —  pode ser o seguinte: "o sistema deve permitir transferências de valores para uma conta corrente de outro banco, por meio de TEDs". Esse requisito dá origem a um conjunto de requisitos de sistema, os quais vão detalhar e especificar o protocolo a ser usado para realização de tais transferências entre bancos. Portanto, requisitos de usuário estão mais próximos do problema, enquanto que requisitos de sistema estão mais próximos da solução.
 
