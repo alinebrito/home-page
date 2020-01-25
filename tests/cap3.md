@@ -1,5 +1,7 @@
 # Requisitos
 
+<div style="text-align: justify">
+
 > *The hardest single part of building a software system is deciding precisely what to build.* -- Frederick Brooks
 
 Este capítulo inicia com uma apresentação sobre a importância e os diversos tipos de requisitos de software (Seção 3.1). Em seguida, caracterizamos e apresentamos as atividades que compõem o que chamamos de Engenharia de Requisitos (Seção 3.2). As quatro seções seguintes apresentam quatro técnicas e documentos para especificação e validação de requisitos. Na Seção 3.3, tratamos de histórias de usuário, as quais são os principais instrumentos de Engenharia de Requisitos quando se usa Métodos Ágeis de Desenvenvolvimento. Em seguida, na Seção 3.4 tratamos de casos de uso, que são documentos tradicionais e mais detalhados para especificação de requisitos. Na Seção 3.5, vamos falar de Produto Mínimo Viável (MVP), muito usados modernamente para prospectar e validar requisitos. Para concluir, na Seção 3.6 tratamos de Testes A/B, também largamente usados hoje em dia para validar e definir os requisitos de produtos de software.
@@ -20,10 +22,10 @@ Requisitos funcionais, na maioria das vezes, são especificados em linguagem nat
 | ------------- | ------------- |
 | Desempenho | Transações por segundo, tempo de resposta, latência, vazão (throughput)
 | Espaço | Uso de disco, uso de RAM, uso de cache
-| Confiabilidade |  \% de disponibilidade, tempo médio entre falhas (MTBF)
+| Confiabilidade |  % de disponibilidade, tempo médio entre falhas (MTBF)
 | Robustez | Tempo para recuperar o sistema após uma falha (MTTR); probabilidade de perda de dados após uma falha
 | Usabilidade | Tempo de treinamento de novos usuários
-| Portabilidade | \% de linhas de código que são portáveis entre plataformas
+| Portabilidade | % de linhas de código que são portáveis entre plataformas
 
 Alguns autores, como Ian Sommerville ([link](https://iansommerville.com/software-engineering-book/)), também classificam requisitos em **requisitos de usuário** e **requisitos de sistema**. Requisitos de usuários são requisitos de mais alto nível, escritos por usuários, normalmente em linguagem natural e sem entrar em detalhes técnicos. Já requisitos de sistema são técnicos, precisos e escritos pelos próprios desenvolvedores. Normalmente, um requisito de usuário é expandido em um conjunto de requisitos de sistema. Suponha, por exemplo, um sistema bancário. Um requisito de usuário  —  especificado pelos funcionários do banco  —  pode ser o seguinte: "o sistema deve permitir transferências de valores para uma conta corrente de outro banco, por meio de TEDs". Esse requisito dá origem a um conjunto de requisitos de sistema, os quais vão detalhar e especificar o protocolo a ser usado para realização de tais transferências entre bancos. Portanto, requisitos de usuário estão mais próximos do problema, enquanto que requisitos de sistema estão mais próximos da solução.
 
@@ -539,3 +541,5 @@ extensões para ele.
 14\. Suponha que estamos em 2008, quando ainda não existia Spotify, e você decidiu criar uma startup para oferecer um serviço de streaming de músicas na Internet. Então, como primeiro passo, você decidiu começar com um MVP. (a) Quais seriam as features desse MVP? (b) Ele seria desenvolvido para quais plataformas de hardware e sistemas operacionais? (c) Elabore um rascunho rápido da sua interface com o usuário. (d) Quais métricas você usaria para medir o sucesso/fracasso do MVP?
 
 15\. Suponha que você seja responsável por um sistema de comércio eletrônico. Suponha que na versão atual desse sistema (versão A) a mensagem do carrinho de compra seja "Adicionar ao Carrinho". Suponha que você pretenda fazer um teste A/B testando a mensagem alternativa "Compre Já", a qual vai corresponder à versão B do teste. (1) Qual seria a métrica usada como taxa de conversão nesse teste? (2) Supondo que no sistema original a taxa de conversão seja de 5% e que você deseja avaliar um ganho de 1% com a mensagem da versão B, qual seria o tamanho da amostra que deveria testar em cada uma das versões? Para responder à segunda questão, use uma calculadora de tamanho de amostras de testes A/B, como aquela que citamos na Seção 3.6.
+
+</div>
